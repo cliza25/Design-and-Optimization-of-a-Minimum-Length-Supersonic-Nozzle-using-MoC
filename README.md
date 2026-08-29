@@ -7,16 +7,16 @@
 ## Overview
 This repository contains a computational fluid dynamics (CFD) implementation in MATLAB to design and analyze a 2D minimum-length supersonic nozzle operating at a design exit Mach number of $M_e = 3.0$. The Method of Characteristics (MoC) is employed to model the steady, inviscid, irrotational, supersonic flow field downstream of a sharp-corner throat.
 
-The algorithm generates the internal characteristic net, solves compatibility relations, applies wall boundary conditions for wave cancellation, and outputs the exact 2D non-linear wall contour required for shock-free, uniform axial exit flow[cite: 1].
+The algorithm generates the internal characteristic net, solves compatibility relations, applies wall boundary conditions for wave cancellation, and outputs the exact 2D non-linear wall contour required for shock-free, uniform axial exit flow.
 
 ---
 
 ## Technical Specifications & Assumptions
 
 ### Governing Assumptions
-* **Flow Conditions:** Steady, 2D, inviscid, irrotational, supersonic flow[cite: 1].
-* **Thermodynamic Model:** Calorically perfect gas ($\gamma = 1.3$)[cite: 1].
-* **Corner Model:** Centered Prandtl–Meyer expansion fan originating from a sharp throat corner[cite: 1].
+* **Flow Conditions:** Steady, 2D, inviscid, irrotational, supersonic flow.
+* **Thermodynamic Model:** Calorically perfect gas ($\gamma = 1.3$).
+* **Corner Model:** Centered Prandtl–Meyer expansion fan originating from a sharp throat corner.
 
 ### Design Input Parameters
 | Parameter | Symbol | Value | Unit |
@@ -61,14 +61,14 @@ The algorithm generates the internal characteristic net, solves compatibility re
 ## Output Visualizations
 
 ### 1. Characteristic Net
-Shows the complete mesh of $C^-$ (blue) and $C^+$ (red) characteristic wave intersections and wall reflections[cite: 1].
+Shows the complete mesh of $C^-$ (blue) and $C^+$ (red) characteristic wave intersections and wall reflections.
 
-![Characteristic Net](characteristic_net.png)[cite: 1]
+![Characteristic Net](characteristic_net.png)
 
 ### 2. Nozzle Contour
-Displays the resulting non-linear 2D minimum-length nozzle geometry designed for uniform exit flow[cite: 1].
+Displays the resulting non-linear 2D minimum-length nozzle geometry designed for uniform exit flow.
 
-![Nozzle Contour](nozzle_contour.png)[cite: 1]
+![Nozzle Contour](nozzle_contour.png)
 
 ---
 
